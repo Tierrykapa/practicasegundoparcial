@@ -1,0 +1,97 @@
+body{
+    background-color: green;
+}
+.cabeza{
+    background-image: url(../img/paisaje1.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+   
+}
+header{
+    text-align: center;
+}
+ol{
+    list-style: none;
+}
+li{
+    display: inline;
+    background-color: greenyellow;
+    padding: 3px;
+    border: 1px;
+    border-style: solid;
+    
+    text-decoration: none;
+}
+.contenido{
+   background-color: greenyellow;
+   display: flex;
+   padding-left: 10px;
+   
+}
+.final{
+    background-image: url(../img/fondomadea.jpg);
+    padding: 5px;
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+.contenidodegaleria{
+    background-color: greenyellow;
+    padding: 5px;
+    text-align: center;
+   margin: 7px 7px;
+}
+.caja1{
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    
+}
+.contenidotabla{
+    background-color: greenyellow;
+    padding: 3px;
+    text-align: center;
+
+}
+.cajatabla{
+        display: flex;
+    justify-content: center;
+}
+.contenidolista{
+    background-color: greenyellow;
+    padding: 3px;
+
+    display: block;
+    padding-left: 20px;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+
+}
+ul li {
+display: list-item !important;
+border: none !important;
+background: transparent !important;
+width: auto !important;
+margin: 0 !important;
+padding: 4px !important;
+text-align: left !important;
+}
+.tienda{
+    background-color: azure;
+  
+}
+.formulario{
+    background-color: aqua;
+    text-align: center;
+    padding: 4px;
+}
+.contacto{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px;
+}
